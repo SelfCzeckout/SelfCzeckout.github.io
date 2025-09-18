@@ -132,8 +132,10 @@ footer {
     margin: 10px 0;
   }
   .media img {
+    max-width: 100%;
     height: auto;
-    width: 100%;
-    max-width: 350px;
+    display: block;
+    margin: 0 auto;
   }
 }
+
